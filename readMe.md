@@ -1,4 +1,4 @@
-# Multi-Stage BJT Power Amplifier (v1.1)
+# Multi-Stage BJT Amplifier (v1.1)
 
 A high-gain, dual-stage BJT amplifier project designed for the **Stage I (Feb 26)** milestone. This design is optimized for fabrication on a **presensitized PCB** with a compact footprint.
 
