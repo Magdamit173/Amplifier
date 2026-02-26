@@ -1,4 +1,4 @@
-# Multi-Stage BJT Amplifier (v1.1)
+# Multi-Stage BJT Amplifier (v1.2)
 
 A high-gain, dual-stage BJT amplifier project designed for the **Stage I (Feb 26)** milestone. This design is optimized for fabrication on a **presensitized PCB** with a compact footprint.
 
@@ -6,9 +6,18 @@ A high-gain, dual-stage BJT amplifier project designed for the **Stage I (Feb 26
 * **Target Gain ($A_v$):** $\ge 120$
 * **Frequency Range (Ideal):** $80\text{Hz}$ to $20\text{kHz}$
 * **Board Dimensions:** $2.18 \times 1.09$ inches
-* **Trace Clearance:** $0.200\text{mm}$ ~ $0.400\text{mm}$ 
-* **Track Width:** $0.8\text{mm}$ ~$1.0\text{mm}$
+* **Trace Clearance:** $0.300\text{mm}$ ~ $0.400\text{mm}$ 
+* **Track Width:** $0.850\text{mm}$ ~ $1.000\text{mm}$ 
+* **Filled Zone (Notice ⚠️):** $0.200\text{mm}$
 * **Fabrication Method:** Presensitized PCB
+
+| Contributors | Main Role | Responsibilities |
+| --- | --- | --- | 
+| Anday, John Kevin I. | Logistics |Component sourcing and technical specification sourcing. |
+| Haque, Majeed P. | Technical Director (Leader) [Amplifier Circuit](/NI%20Multisim/Amplifier.ms14) | Mathematical modeling, circuit analysis, and core calculations. |
+| Leonardo, John Ruiz | Quality Assurance |Validation of engineering calculations and design accuracy.|
+| Magdamit, Rovic | Hardware/PCB, and Documentation [github](./)| Design layout, footprint selection. |
+| Obar, Tohms Hegel V. | Documentation Head | Technical reporting, citation research, and presentation design.|
 
 ### Component Notes
 * **Coupling Capacitors:** 10µF 50V **Monolithic Ceramics** (Code 106).
@@ -33,7 +42,7 @@ A high-gain, dual-stage BJT amplifier project designed for the **Stage I (Feb 26
 ### Design Documentation
 
 #### Schematic Diagram
-![Schematic](Plot/Power_Amplifier.svg)
+![Schematic](Plot/Amplifier.svg)
 
 ### PCB Layout & 3D Preview
 | 2D Copper Trace View | 3D Rendered View |
