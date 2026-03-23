@@ -1,14 +1,14 @@
-# Multi-Stage BJT Amplifier (v1.2)
+# Multi-Stage BJT Amplifier (v2.0)
 
-A high-gain, dual-stage BJT amplifier project designed for the **Stage I (Feb 26)** milestone. This design is optimized for fabrication on a **presensitized PCB** with a compact footprint.
+A high-gain, dual-stage BJT amplifier project designed for the **Stage II (March 26)** milestone. This design is optimized for fabrication on a **presensitized PCB** with a compact footprint.
 
 ### Design Specifications
 * **Target Gain ($A_v$):** $\ge 120$
 * **Frequency Range (Ideal):** $80\text{Hz}$ to $20\text{kHz}$
-* **Board Dimensions:** $2.18 \times 1.09$ inches
+* **Board Dimensions:** $2.2480 \times 1.1496$ inches
 * **Trace Clearance:** $0.300\text{mm}$ ~ $0.400\text{mm}$ 
 * **Track Width:** $0.850\text{mm}$ ~ $1.000\text{mm}$ 
-* **Filled Zone (Notice ⚠️):** $0.200\text{mm}$
+* **Filled Zone (Notice ⚠️):** $0.400\text{mm}$
 * **Fabrication Method:** Presensitized PCB
 
 | Contributors | Main Role | Responsibilities |
